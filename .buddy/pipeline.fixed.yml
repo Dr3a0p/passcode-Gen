@@ -1,0 +1,7 @@
+- pipeline: id_drea
+  name: Pipeline
+  refs:
+  - refs/heads/main
+  events:
+  - type: WEBHOOK
+  fail_on_prepare_env_warning: true
